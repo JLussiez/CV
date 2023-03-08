@@ -1,69 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap");
 
-html{
-    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(31,31,42,1) 100%);
-    color: rgb(176, 175, 175);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Unbounded', cursive;
+html {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 48, 48, 1) 0%,
+    rgba(31, 31, 42, 1) 100%
+  );
+  color: rgb(176, 175, 175);
 }
 
-.content-title{
-    padding-left: 10%;
-    padding-top: 5%;
-    font-size: 40px;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Unbounded", cursive;
 }
 
-.title-div{
-    height: 600px;
-    text-align: center;
-    font-size: 50px;
-    padding-top: 20%;
-}
-.content{
-    padding-left: 10%;
-    padding-top: 4%;
-    font-size: 20px;
-}
-.content-title{
-    padding-left: 10%;
-    padding-top: 5%;
-    font-size: 40px;
+.content-title {
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 40px;
 }
 
-.content-subtitle{
-    padding-left: 10%;
-    padding-top: 5%;
-    font-size: 30px;
+.title-div {
+  height: 600px;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20%;
 }
-.img{
-    padding-left: 2%;
-    padding-right: 2%;
+.content {
+  padding-left: 10%;
+  padding-top: 4%;
+  font-size: 20px;
+}
+.content-title {
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 40px;
 }
 
-.line-1{
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;  
+.content-subtitle {
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 30px;
+}
+.img {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.formations {
+  font-size: 25px;
+}
+
+.line-1 {
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* Animation */
-.anim-typewriter{
+.anim-typewriter {
   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+    blinkTextCursor 500ms steps(44) infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 8em;}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8em;
+  }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255, 200, 0, 0.75);}
-  to{border-right-color: transparent;}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 200, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
