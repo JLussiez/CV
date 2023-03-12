@@ -113,6 +113,17 @@ html {
   font-size: 25px;
 }
 
-.footer-content {
-  background-color: rgb(78, 78, 78);
+/* --- CV --- */
+
+/* --- Bouton ---*/
+.display_button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #979797;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
 }
