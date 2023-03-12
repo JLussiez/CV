@@ -17,28 +17,23 @@ html {
 }
 
 /* --- Header --- */
-.topnav {
-  background-color: #333;
+.nav {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-.topnav a {
+.nav a {
   float: left;
-  color: #f2f2f2;
-  text-align: center;
+  color: #b3b3b3;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
+.nav a:hover {
+  background-color: #979797;
   color: black;
-}
-
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
 }
 
 /* --- Animation --- */
