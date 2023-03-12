@@ -36,6 +36,12 @@ html {
   color: black;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 /* --- Animation --- */
 .animation {
   height: 600px;
@@ -105,5 +111,4 @@ html {
 }
 .formations {
   font-size: 25px;
-  background-color: green;
 }
