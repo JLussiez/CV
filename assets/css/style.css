@@ -127,3 +127,15 @@ html {
   padding: 15px;
   border-radius: 5px;
 }
+
+/* --- PDF image ---*/
+
+.pdf_display {
+  display: flex;
+  justify-content: center;
+}
+
+.pdf_img {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
