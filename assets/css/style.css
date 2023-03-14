@@ -33,6 +33,7 @@ html {
 
 .nav a:hover {
   background-color: #979797;
+  border-radius: 100px;
   color: black;
 }
 
@@ -88,9 +89,48 @@ html {
   color: rgb(255, 255, 255);
 }
 
+.name {
+  color: rgb(80, 184, 166);
+}
+/* --- Languages ---*/
+
+.html {
+  color: orange;
+}
+
+.css {
+  color: rgb(17, 115, 180);
+}
+
+.php {
+  color: rgb(128, 77, 223);
+}
+
+.js {
+  color: gold;
+}
+
+.sql {
+  color: orangered;
+}
+
+.c {
+  color: rgb(75, 75, 219);
+}
+
 .content-text {
   padding-left: 10%;
   padding-top: 4%;
+  font-size: 20px;
+}
+.content-text2 {
+  padding-left: 10%;
+  padding-top: 4%;
+  font-size: 20px;
+}
+.content-text3 {
+  padding-left: 10%;
+  padding-top: 2%;
   font-size: 20px;
 }
 .content {
